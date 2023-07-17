@@ -1,6 +1,6 @@
-#Create a random number between 0 to 10
+#Create a random number between 0 to 1000
 
 import random
 
-random_num = random.randint(0,10)
-print(random_num)
+randomNum = random.randint(0,1000)
+print(randomNum)
