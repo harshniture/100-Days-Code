@@ -14,6 +14,6 @@ def dec_to_binary(n):
 	return binary
 
 
-num = int(input("Your decimal number: "))
+num = int(input())
 binary = dec_to_binary(num)
-print("Your binary is:", binary)
+print(binary)
