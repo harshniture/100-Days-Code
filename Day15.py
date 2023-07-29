@@ -7,11 +7,11 @@ def is_prime(num):
    return True
 
 
-num = int(input("Enter a number: "))
+num = int(input("Num: "))
 
 check_prime = is_prime(num)
 
 if check_prime:
-   print('Your number is a Prime')
+   print('Prime Number')
 else:
-   print('Your number is not a Prime')
+   print('Not a Prime Number')
