@@ -1,6 +1,6 @@
 #Ask the user to enter a number. Then find all the primes factors for the number.
 
-def get_prime_factors(n):
+def prime_factors(n):
    factors = []
    divisor = 2
    while n > 2:
@@ -11,6 +11,6 @@ def get_prime_factors(n):
         divisor = divisor + 1
    return factors
  
-num = int (input('Enter your number: '))
-factors = get_prime_factors(num)
+num = int (input('Number: '))
+factors = prime_factors(num)
 print(factors)
