@@ -6,8 +6,8 @@ def get_smallest_factor(num):
        factor += 1
    return factor
  
-num = int(input('Enter your number: '))
+num = int(input('Num: '))
  
 smallest_factor = get_smallest_factor(num)
  
-print('The smallest prime factor is: ', smallest_factor)
+print('Smallest prime factor: ', smallest_factor)
