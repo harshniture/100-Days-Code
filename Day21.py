@@ -1,11 +1,11 @@
 #Reverse a string using a recursive function.
 
-def reverse_recur(str):
+def reverseRecur(str):
    if len(str) == 0:
        return str
    else:
-       return reverse_recur(str[1:]) + str[0]
+       return reverseRecur(str[1:]) + str[0]
  
-str = input("Enter your string: ")
-rev_str = reverse_recur(str)
-print ('Reverse of your string: ', rev_str)
+str = input("String: ")
+rev_str = reverseRecur(str)
+print ('Reverse string: ', rev_str)
