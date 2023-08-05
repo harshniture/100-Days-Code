@@ -2,12 +2,12 @@
 #If the input is: Hello World.
 #The output should be: .dlroW olleH
 
-def reverse_string(str):
+def reverseString(str):
    reverse = ""
    for char in str:
        reverse = char + reverse
    return reverse
  
-str = input("Enter your string: ")
-result = reverse_string(str)
+str = input("String: ")
+result = reverseString(str)
 print(result)
