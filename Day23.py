@@ -1,6 +1,6 @@
 #Reverse a string using a stack.
 
-def reverse_stack(str):
+def reverseStack(str):
   stack = []
   for char in str:
       stack.append(char)
@@ -9,6 +9,6 @@ def reverse_stack(str):
        last = stack.pop()
        rev = rev + last       
   return rev
-usr_str = input('What is your string:')
-reverse = reverse_stack(usr_str)
+usr_str = input('String:')
+reverse = reverseStack(usr_str)
 print('Reversed is: ', reverse)
